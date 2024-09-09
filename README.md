@@ -3,13 +3,13 @@ A PowerShell script that reminds me to blink every 5 minutes| How to create a ta
 
 
 
-##Save the Script
+## Save the Script
 
 Save the above script as BlinkReminder.ps1 in a directory you can easily find, like C:\Scripts\BlinkReminder.ps1.
 
-##Set Up Task Scheduler
+## Set Up Task Scheduler
 
-###Create a New Task:
+### Create a New Task:
 
 Click on “Create Task…” in the right-hand pane.
 In the General tab, give your task a name, like “Blink Reminder.”
@@ -25,6 +25,7 @@ Go to the Actions tab and click “New…”.
 Choose “Start a program” as the action.
 In the Program/script box, type powershell.exe.
 In the Add arguments (optional) box, enter : -WindowStyle Hidden -File "C:\Scripts\BlinkReminder.ps1"
+
 Adjust Additional Settings:
 
 You can leave the default settings in the Conditions and Settings tabs, or adjust them as needed.
